@@ -41,7 +41,6 @@ Complete Arabic (RTL) clinic management system for multiple clinics, with a smar
 - `backend/TechCare.Clinic.Api.Tests`: integration tests
 - `frontend`: web UI
 - `scripts`: helper scripts for testing and starting the vector database
-- `PLAN.md`, `PLAN_ADDENDUM.md`: development plan and step-by-step log
 
 ## Getting started
 
