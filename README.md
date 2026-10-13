@@ -1,15 +1,32 @@
 ﻿# TechCare Clinic
 
-Arabic (RTL) clinic management web app with an AI assistant that answers from a local medical library, with source attribution.
+Complete Arabic (RTL) clinic management system for multiple clinics, with a smart queue, online booking, billing, and an AI medical assistant that answers from a medical library with sources.
 
-## What it does
+## Features
 
-- Multi-clinic system: each clinic's data is isolated, and an owner (super admin) panel manages clinics, subscriptions and trial periods
-- Roles and per-user permissions (admin, doctor, reception) with an audit log
-- Patients, visits, appointments and queue, invoices, visit attachments, drug catalog
-- Patient data rights and data retention handling
-- AI assistant: retrieval over a medical library (PubMed and clinical guidelines) using a local LLM through LM Studio (Qwen), with an optional external model provider
+**Daily clinic operations**
+- Dashboard: today's patients, waiting, examined, and daily revenue
+- Smart queue with a waiting-room display screen
+- Appointments and a public online booking page for each clinic (clinic hours, visit slots, visit type)
+- Patient files: medical data (allergies, chronic conditions, blood type), visit history, attachments
+- Billing: invoices, payments, and remaining balance
+- Medical report and referral letter generation, drug catalog
+
+**Administration**
+- Clinic settings: details, prices, visit duration, working days and hours, online booking on/off
+- Users with roles and per-user permissions (admin, doctor, reception), password reset, disable accounts
+- Audit log, patient data rights, and data retention handling
+
+**Multi-clinic platform (owner panel)**
+- Owner (super admin) manages clinics, subscriptions and trial periods
+- Each clinic's data is isolated from the others
+- Medical library management, event log, and AI usage tracking
+
+**AI medical assistant**
+- Answers clinical questions from a medical library (PubMed and clinical guidelines) and shows its sources
+- Local LLM through LM Studio (Qwen), with an optional external model provider
 - Optional vector search with PostgreSQL + pgvector
+- Decision support only, it does not replace the doctor's judgment
 
 ## Tech stack
 
