@@ -68,3 +68,25 @@ dotnet test backend/TechCare.Clinic.Api.Tests/TechCare.Clinic.Api.Tests.csproj
 ## Status
 
 Working prototype under active development. This repository contains the source code only. The database, patient files, logs and the medical library (guideline PDFs and PubMed data) are not included.
+
+## Screenshots
+
+All screenshots use demo data only.
+
+### Dashboard
+![Dashboard](docs/images/techcare-dashboard.png)
+
+### Smart Queue
+![Smart Queue](docs/images/techcare-smart-queue.png)
+
+### Patient File
+![Patient File](docs/images/techcare-patient-file.png)
+
+### AI Medical Assistant
+![AI Medical Assistant](docs/images/techcare-ai-medical-assistant.png)
+
+### Online Booking Page
+![Online Booking](docs/images/techcare-online-booking.png)
+
+### Clinic Settings and Users
+![Clinic Settings](docs/images/techcare-clinic-settings.png)
